@@ -1,9 +1,13 @@
 .header {
     text-align: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 24px; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
 
 .a {
     text-align: center;
+}
+
+.background-image {
+    background-image: url(see\ you\ at\ the\ movies.jpeg);
+    background-repeat: no-repeat;
 }
