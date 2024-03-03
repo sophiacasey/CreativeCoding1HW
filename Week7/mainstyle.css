@@ -1,13 +1,212 @@
+/* HEADER */
 .header {
-    text-align: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    padding:10px;
+    background: #e3f1f500;
+    position: relative;
+    bottom: -45px;
 }
 
-.a {
-    text-align: center;
+#linkModify {
+    text-decoration: none;
 }
 
-.background-image {
-    background-image: url(see\ you\ at\ the\ movies.jpeg);
-    background-repeat: no-repeat;
+/* dropdown button */
+.dropbtn {
+    background-color: #91aea7;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-left: 230px;
+    border-radius: 5px;
+}
+
+/* the container for the dropdown content */
+.dropdown {
+    position:relative;
+    display:inline-block;
+}
+
+/* dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(191, 204, 216);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 230px;
+}
+
+/* links INSIDE the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on HOVER */
+.dropdown-content a:hover {background-color:rgb(144, 158, 173)}
+
+/* show dropdown menu on HOVER */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change color of dropdown menu when dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #6a8587 ;}
+
+/* homepage container */
+.homepageContainer {
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    width: 65%;
+    height: 400px;
+    bottom: -100px;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: #5e6c5b8e;
+}
+
+/* intro image text overlay */
+.textcontainer {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.textcontainer .textcontent {
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.779);
+    background: rbga(0,0,0,0.5);
+    color: #f1f1f1;
+    width: 65%;
+    padding: 8px;
+    margin-left: -87px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* film page text overlay */
+.fpcontainer {
+position: relative;
+max-width: 25%;
+margin: 0 auto;
+}
+
+.fpcontainer .fpcontent {
+    position: absolute; text-align: center;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0);
+    color: #f1f1f1;
+    width: 65%;
+    padding: 0px;
+    margin-left: 210px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 180%;
+}
+
+/* review page text overlay */
+.reviewcontainer {
+    position: relative;
+    max-width: 25%;
+    margin: 0 auto;
+}
+
+.reviewcontainer .reviewcontent {
+    position:absolute; text-align:center;
+    bottom: 0;
+    background: rgba(0,0,0,0);
+    background: rgba(0, 0, 0, 0);
+    color: #f1f1f1;
+    width: 65%;
+    padding: 0px;
+    margin-left: 440px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 180%;
+}
+
+/* community page */
+.communitycontainer {
+    position: relative;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.communitycontainer .communitycontent {
+    position:absolute; text-align:center;
+    bottom: 0;
+    background: rgba(0,0,0,0);
+    background: rgba(0, 0, 0, 0);
+    color: #f1f1f1;
+    width: 65%;
+    padding: 0px;
+    margin-left: 385px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 180%;
+}
+
+/* HEADER 2 */
+.headerpagetwo {
+    padding: 10px;
+    background: #e3f1f500;
+    position:relative;
+    top: 45px;
+}
+
+/* FILM PAGE CONTAINER */
+.filmscontainer {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: #f4efe6ac;
+    margin-top: 100px;
+    height: 600px;
+}
+
+/* Everything Everywhere All At Once */
+.eeaaocontainer {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;  
+}
+
+.everythingcontainer .everythingcontent {
+   position:absolute; text-align: center;
+   bottom: 101;
+   background:rgb(0, 0, 0);
+   background:rgba(0, 0, 0, 0.707);
+   color: #f1f1f1;
+   width: 192;
+   padding: 4;
+   margin-left:13;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 11; 
+}
+
+/* Wall-E */
+.wallecontainer {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.wallecontainer .wallecontent {
+    position: absolute; text-align: center;
+    bottom: 218;
+    background: rgb(0,0,0);
+    background: rgba(0,0,0,0.707);
+    color: #f1f1f1;
+    width: 192;
+    padding: 4;
+    margin-left: 170;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 11;
+}
+#saveposition {
+    position:fixed;
 }
