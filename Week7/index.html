@@ -1,21 +1,72 @@
 <html>
+<!--page characteristics-->
     <head>
     <title>Home Page</title>
     <link rel="stylesheet" type="text/css" href="mainstyle.css">
+    <style>
+        body{
+            background-image: url(websitebackground.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
     </head>
+<!--everything visible in website-->
     <body>
-        <div class="header">
-        <h1>Beyond The Screen</h1>
-        <img src="see you at the movies.jpeg" height="250" width="250"/>
-      </div> 
-      <br />
-      <br />
-       <p class="header">Welcome to Beyond The Screen! This is a safe space where we watch movies and have thorough discussions on how the film impacted us. Kind of like a book club, but for films!</p>
-<h2 class="header">How Does This Work?</h2>
-       <p class="header">I'll watch a movie every week or so based off of your recommendations. After viewing the film I'll give my personal analysis and thoughts on it. I provide a community response section as well so you can chime in on the conversation!</p>    
-        <h2 class="header">Let's watch some films together!</h2>
-<br />           
-<div class="a">
-        <a href="page2.html" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">The Films</a> | <a href="page3.html" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Recommendations</a>
+<!--header-->
+<div class="header">
+<!--dropdown menu-->
+<div class="dropdown">
+    <button class="dropbtn">MENU</button>
+    <div class="dropdown-content">
+        <a href="page2.html" id="linkModify">Films</a>
+        <a href="page3.html" id="linkModify">Film Reviews</a>
+        <a href="page4.html" id="linkModify">Suggestion Forum</a>
 </div>
-        </html>
+</div>
+    </div>
+<!--grid container-->
+<div class="homepageContainer">
+<!--introduction picture-->
+<div class="textcontainer">
+<img src="slatereel.jpeg" style="margin-left: -87px; margin-top: -1px"
+    width="65%"
+    height="401">
+<div class="textcontent" style="margin-top: -1px">
+    <h1>Beyond The Screen</h1>
+    <p>This is a safe space where we watch movies and have thorough discussions on how the film impacted us.</p>
+    <p>We also provide a community forum for you to share your own thoughts on the film as well as leave suggestions for future film viewings!</p>
+</div>
+</div>
+</div>
+<!--filmpage picture-->
+<div class="fpcontainer">
+    <a href="page2.html" style="text-decoration: none" target="_new"><img src="films_page.jpeg" alt="film page" style="margin-left: 214px; margin-top: -301;"
+       width="65%"
+       height="208"></a>
+   <div class="fpcontent" style="margin-bottom: 145px"> 
+       <h3>FILMS</h3>     
+   </div>
+       </div>
+   </div>
+<!--reviews picture-->
+<div class="reviewcontainer">
+<a href="page3.html"><img src="Microphone_Reviews.jpeg" style="margin-left: 447px; margin-top: -301px;"
+width="61%"
+height="208"></a>
+<div class="reviewcontent" style="margin-bottom: 145px">
+    <h3>REVIEWS</h3>
+</div>
+</div>
+<!--community picture-->
+<div class="communitycontainer">
+    <a href="page4.html"><img src="community.png" style="margin-left: 396.5px; margin-top: -93px;"
+    width="62.40%"
+    height="130"></a>
+    <div class="communitycontent" style="margin-bottom: -85px">
+        <h3>COMMUNITY</h3>
+    </div>
+    </div>
+<span id="saveposition"></span>
+    </body>
+</html>
