@@ -1,3 +1,18 @@
+/* Extra Small Devices, .visible-xs-* */
+@media (max-width: 767px) {}
+
+/* Small Devices, .visible-sm-* */
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/* Medium Devices, .visible-md-* */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* Large Devices, .visible-lg-* */
+@media (min-width: 1200px) {} 
+* {
+    box-sizing: border-box;
+  }
+
 /* HEADER */
 .header {
     padding:10px;
@@ -18,7 +33,7 @@
     font-size: 16px;
     border: none;
     cursor: pointer;
-    margin-left: 230px;
+    margin: auto;
     border-radius: 5px;
 }
 
@@ -33,16 +48,17 @@
     display: none;
     position: absolute;
     background-color:rgb(191, 204, 216);
-    min-width: 160px;
+    width: 100%;
+    max-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    left: 230px;
+    margin: auto;
 }
 
 /* links INSIDE the dropdown */
 .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 12px 12px;
     text-decoration: none;
     display: block;
 }
@@ -61,9 +77,11 @@
     margin-left: auto;
     margin-right: auto;
     position:relative;
-    width: 65%;
-    height: 400px;
-    bottom: -100px;
+    width: 100%;
+    max-width: 974px;
+    height: 100%;
+    max-height: 400;
+    bottom: -100;
     padding-left: 1%;
     padding-right: 1%;
     background-color: #5e6c5b8e;
@@ -72,8 +90,9 @@
 /* intro image text overlay */
 .textcontainer {
     position: relative;
+    width: 100%;
     max-width: 800px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .textcontainer .textcontent {
@@ -82,7 +101,8 @@
     background: rgba(0, 0, 0, 0.779);
     background: rbga(0,0,0,0.5);
     color: #f1f1f1;
-    width: 65%;
+    width: 100%;
+    max-width: 65%;
     padding: 8px;
     margin-left: -87px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -307,7 +327,3 @@ margin: 0 auto;
 #saveposition {
     position:fixed;
 }
-
-.container
-
-/*original stylesheet <link rel="stylesheet" type="text/css" href="mainstyle.css"> */
