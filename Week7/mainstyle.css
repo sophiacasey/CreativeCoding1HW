@@ -183,7 +183,7 @@ margin: 0 auto;
    color: #f1f1f1;
    width: 192;
    padding: 4;
-   margin-left:13;
+   margin-left:20;
    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    font-size: 11; 
 }
@@ -203,10 +203,111 @@ margin: 0 auto;
     color: #f1f1f1;
     width: 192;
     padding: 4;
-    margin-left: 170;
+    margin-left: 185;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 11;
 }
+
+/* Parasite */
+.parasitecontainer {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.parasitecontainer .parasitecontent {
+    position: absolute; text-align: center;
+    bottom: 218;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.707);
+    color: #f1f1f1;
+    width: 192;
+    padding: 4;
+    margin-left: 420;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 11;
+}
+
+/* Eternal Sunshine of the Spotless Mind */
+.eternalsunshinecontainer {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.eternalsunshinecontainer .eternalsunshinecontent {
+    position: absolute; text-align: center;
+    bottom: 218;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.707);
+    color: #f1f1f1;
+    width: 192;
+    padding: 4;
+    margin-left: 655;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 11;
+}
+
+/* Header Page 3 */
+.headerpagethree {
+    padding: 10px;
+    background: #e3f1f500;
+    position:relative;
+    top: 45px;
+}
+/* FILM REVIEW PAGE CONTAINER */
+.filmreviewcontainer {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: #f4efe6ac;
+    margin-top: 100px;
+    height: 802px;
+}
+/* EEAAO Review Page */
+.eeaaocontainertwo {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;  
+}
+
+.everythingcontainertwo .everythingcontenttwo {
+   position:absolute; text-align: left;
+   bottom: -145;
+   background:#0000005b;
+   background:#000000a0;
+   color: #ffffff;
+   width: 895;
+   padding: 4;
+   margin-left:20;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 12; 
+}
+
+.btn{
+    background-color: #5e6c5b;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none; 
+    border-radius:5px;
+    height: 50;
+    margin-left: 400;
+    margin-top: -15;
+    text-decoration-color: #f1f1f1;
+    text-decoration:none;
+}
+
+.btn:hover, .btn:active {
+    background-color: #586854;
+}
+
 #saveposition {
     position:fixed;
 }
+
+.container
+
+/*original stylesheet <link rel="stylesheet" type="text/css" href="mainstyle.css"> */
