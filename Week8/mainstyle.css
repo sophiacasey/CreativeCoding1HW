@@ -309,6 +309,10 @@ margin: 0 auto;
     position:fixed;
 }
 
-:invalid {
-    border-color: red;
+.toggle-content {
+	display: none;
+}
+
+.toggle-content.is-visible {
+	display: block;
 }
