@@ -18,8 +18,6 @@ var legX = 205;
 var legY = 380;
 var legDirection= 5;
 
-var direction= 10;
-
 //right leg
 var x = 100;
 var y = 50;
