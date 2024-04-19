@@ -5,7 +5,7 @@ var fft;
 var particles = []
 //music
 function preload() {
-    song = loadSound('lofi.mp3')
+    song = loadSound('Casey_FinalProject copy.wav')
     img = loadImage('waterwindow.jpeg')
 }
 
